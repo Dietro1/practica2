@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: rgb(34, 32, 32);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    width: 1100px;
+    margin: 0px auto;
+    border: 1px solid black;
+}
+
+header {
+    background: rgb(78, 74, 74);
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    border-bottom: 3px dashed blue;
+}
+
+.clearfix {
+    clear: both;
+}
+
+#content {
+    float: left;
+    width: 80%;
+    background: rgb(86, 170, 170);
+    min-height: 700px;
+}
+
+aside form {
+    float: left;
+    width: 20%;
+    background: darkgray;
+    min-height: 700px;
+}
+
+footer {
+    background-color: darkred;
+}
